@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "database", "database", "{FDCCD8A2-964E-4737-AFE8-137425546DE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{82907CE5-AF61-4AE3-AA72-CFF8BC54F522}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D2CFL.Database", "database\src\D2CFL.Database\D2CFL.Database.csproj", "{59CB469F-CBD8-47E9-ABB3-B36F6A95F577}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59CB469F-CBD8-47E9-ABB3-B36F6A95F577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59CB469F-CBD8-47E9-ABB3-B36F6A95F577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59CB469F-CBD8-47E9-ABB3-B36F6A95F577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59CB469F-CBD8-47E9-ABB3-B36F6A95F577}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82907CE5-AF61-4AE3-AA72-CFF8BC54F522} = {FDCCD8A2-964E-4737-AFE8-137425546DE3}
+		{59CB469F-CBD8-47E9-ABB3-B36F6A95F577} = {82907CE5-AF61-4AE3-AA72-CFF8BC54F522}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CB1A77D-9FC2-469B-9526-01CBB8E0A757}
+	EndGlobalSection
+EndGlobal
